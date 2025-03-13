@@ -5,16 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuScript
 {
-    public Button buildButton;
     private void Start() {
-        buildButton.onClick.AddListener(() => OnBuildButtonClick());
+        
 
     }
     private void OnDestroy(){
-        buildButton.onClick.RemoveAllListeners();
+
     }
-    public void OnBuildButtonClick(){
-        //SceneManager.LoadScene(sceneName:"BuildMenuScene");
-        Debug.Log("Button works");
+    public void BuildThings(){
+        SceneManager.LoadScene("BuildMenu");
+    }
+    public void ShootThings(){
+        SceneManager.LoadScene("CombatMenu");
+    }
+    public void CheckThings(){
+        SceneManager.LoadScene("PersonalData");
+    }
+    public void Settings(){
+        SceneManager.LoadScene("Settings Screen");
+    }
+    public void QuitGame(){
+        Application.Quit();
     }
 }

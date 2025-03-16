@@ -1,27 +1,27 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/augie/Source/Strange-Space-Spaceship-Builder/Strange Space
+    m_FilePath: C:/Users/augie/Repos/Strange-Space-Spaceship-Builder/Strange Space
       Spaceship Builder/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638775609224174466
+      ticks: 638777466595327271
     m_Hash: 4279737873
   m_LockFileStatus:
-    m_FilePath: C:/Users/augie/Source/Strange-Space-Spaceship-Builder/Strange Space
+    m_FilePath: C:/Users/augie/Repos/Strange-Space-Spaceship-Builder/Strange Space
       Spaceship Builder/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638775609224194705
+      ticks: 638777466595337314
     m_Hash: 4251471908
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/augie/Source/Strange-Space-Spaceship-Builder/Strange Space
+m_ProjectPath: C:/Users/augie/Repos/Strange-Space-Spaceship-Builder/Strange Space
   Spaceship Builder/Packages
 m_EditorVersion: 6000.0.41f1 (46e447368a18)
 m_ResolvedPackages:
@@ -30,7 +30,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.6
   source: 1
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.ai.navigation@c74b2724ed42
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
@@ -147,7 +147,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.7.1
   source: 1
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.collab-proxy@50ac96531b63
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
@@ -331,7 +331,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.31
   source: 1
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.ide.rider@7921be93db40
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
@@ -451,7 +451,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.22
   source: 1
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.ide.visualstudio@8140e851d83e
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
@@ -558,7 +558,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.13.1
   source: 1
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.inputsystem@e2c83221d2dc
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
@@ -707,7 +707,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
@@ -798,7 +798,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.0.4
   source: 2
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.render-pipelines.universal@506b3deb0041
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
@@ -961,7 +961,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.4.6
   source: 1
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.test-framework@5ac417e07314
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
@@ -1114,7 +1114,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.timeline@c58b4ee65782
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
@@ -1301,7 +1301,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.ugui@22ebcc83720a
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
@@ -1394,7 +1394,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.5
   source: 1
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.visualscripting@1b53f46e931b
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
@@ -3935,7 +3935,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 1
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
@@ -4015,7 +4015,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.4
   source: 2
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.render-pipelines.core@e13fb214c240
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
@@ -4230,7 +4230,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.4
   source: 2
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.shadergraph@cdef3258c742
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
@@ -4434,7 +4434,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.render-pipelines.universal-config@fa63c96d3e1a
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
@@ -4533,7 +4533,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.3
   source: 1
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.searcher@1e17ce91558d
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
@@ -4621,7 +4621,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.19
   source: 1
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.burst@7a907cf5a459
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
@@ -4846,7 +4846,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.2
   source: 1
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.mathematics@8017b507cc74
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
@@ -4936,7 +4936,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.5.1
   source: 1
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.collections@56bff8827a7e
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
@@ -5024,10 +5024,12 @@ m_ResolvedPackages:
     - 2.5.1
     - 2.5.2
     - 2.5.3
+    - 2.6.0-exp.2
     compatible:
     - 2.5.1
     - 2.5.2
     - 2.5.3
+    - 2.6.0-exp.2
     recommended: 2.5.3
     deprecated: []
   dependencies:
@@ -5107,7 +5109,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.rendering.light-transport@307bc27a498f
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
@@ -5204,7 +5206,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.4
   source: 1
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
@@ -5287,7 +5289,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.3
   source: 1
-  resolvedPath: C:\Users\augie\Source\Strange-Space-Spaceship-Builder\Strange Space
+  resolvedPath: C:\Users\augie\Repos\Strange-Space-Spaceship-Builder\Strange Space
     Spaceship Builder\Library\PackageCache\com.unity.test-framework.performance@fb0dc592af8b
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance

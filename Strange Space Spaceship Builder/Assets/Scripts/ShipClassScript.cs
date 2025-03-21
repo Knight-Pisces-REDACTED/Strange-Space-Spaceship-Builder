@@ -1,7 +1,7 @@
 using NUnit.Framework.Internal;
 using UnityEngine;
 
-public class ShipClassScript : MonoBehaviour
+public class ShipClassScript
 {
     public class Ship{
         public int weight;

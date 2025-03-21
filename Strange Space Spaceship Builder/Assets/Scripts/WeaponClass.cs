@@ -13,7 +13,8 @@ public class WeaponClass {
     public double falloff;
 
 
-    public WeaponClass(string weaponName, double weaponDamage, double weaponRange, ){
+    public WeaponClass(string weaponName, double weaponDamage, double weaponRange, double baseAccuracy, double weight, double cost, Techs tech, ){
 
     }
+
 }

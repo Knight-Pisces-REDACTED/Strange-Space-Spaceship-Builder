@@ -429,6 +429,7 @@
 "Assets/Scripts/ShipClassScript.cs"
 "Assets/Scripts/Techs.cs"
 "Assets/Scripts/WeaponClass.cs"
+"Assets/Scripts/WeaponSupertypes.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic

@@ -1,3 +1,5 @@
+using Unity.VisualScripting;
+
 public class WeaponClass {
 
     public string name;
@@ -21,6 +23,12 @@ public class WeaponClass {
         range = weaponRange;
         damage = weaponDamage;
         falloff = falloffRate;
+    }
+    public double calcAccuracy(){
+        return 0;
+    }
+    public void Shoot(Ship target){
+        
     }
 
 }

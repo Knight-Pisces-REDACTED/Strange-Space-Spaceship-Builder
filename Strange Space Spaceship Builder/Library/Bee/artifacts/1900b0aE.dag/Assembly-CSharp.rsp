@@ -428,6 +428,7 @@
 "Assets/Scripts/GunSizes.cs"
 "Assets/Scripts/MainMenuScript.cs"
 "Assets/Scripts/Ship.cs"
+"Assets/Scripts/ShipInst.cs"
 "Assets/Scripts/Techs.cs"
 "Assets/Scripts/WeaponClass.cs"
 "Assets/Scripts/WeaponSupertypes.cs"

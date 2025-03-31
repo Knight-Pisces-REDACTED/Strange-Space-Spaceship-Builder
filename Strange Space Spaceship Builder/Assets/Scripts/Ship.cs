@@ -28,13 +28,14 @@ public class Ship
         decks = shipHeight/4;
         SizeCalc(maxWeight, hullShape, shipHeight, wingCount, wingShape);
     }
+    //Base hull weight is the base hull only. Adding wings just adds more slots and opens more mounting points for thrusters.
     private void SizeCalc(int weight, string shape, int height, int wingNum, string wingShape, int ratio = 0){
-        
+        double vol = weight * SPACESHIP_TONS_PER_CUBIC_METER;
+        double flat = vol / height;
         if (shape == "Circle"){
-            
+
         } else if (shape == "Rectangle"){
             if (ratio!=0){
-                double vol = weight * SPACESHIP_TONS_PER_CUBIC_METER;
             }
             else{
                 Console.WriteLine("You need to add a length-width ratio.");//replace with proper error window later

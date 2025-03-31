@@ -425,6 +425,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Prefabs/Constants.cs"
 "Assets/Scripts/BuildMenuScript.cs"
+"Assets/Scripts/Faction.cs"
+"Assets/Scripts/Globals.cs"
 "Assets/Scripts/GunSizes.cs"
 "Assets/Scripts/MainMenuScript.cs"
 "Assets/Scripts/Ship.cs"

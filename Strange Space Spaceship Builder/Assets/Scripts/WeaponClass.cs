@@ -55,7 +55,7 @@ public class WeaponClass {
         double adjDamage = dam - (uDam * count);
         return adjDamage;
     }
-    public void Shoot(ShipInst target){
+    public void Shoot(ShipEntity target){
         if (type == WeaponSupertypes.Direct) {
             Vector3 wep = Vector3.zero;
             Vector3 targ = Vector3.right;

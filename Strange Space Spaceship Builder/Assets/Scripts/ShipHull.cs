@@ -1,5 +1,6 @@
 using System;
 using NUnit.Framework.Internal;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Scripting.APIUpdating;
@@ -7,35 +8,65 @@ using static Constants.BuilderConstants;
 
 public class ShipHull
 {
-    public int hullWeight;
-    public int hullMaxWeight;
-    public int hullHeight;
-    public int hullLength;
-    public int hullWidth;
-    public int lWRatio;
+    public double hullWeight;
+    public double hullMaxWeight;
+    public double hullHeight;
+    public double hullLength;
+    public double hullWidth;
+    public double hullRatio;
     public string hullShape;
-    public int decks;
-    public ShipHull(int weight = 25000, int h = 28, double ratio = 1/5){
+    public double decks;
+    public ShipHull(string hullShape, double weight = 25000, double h = 28){
         hullMaxWeight = weight;
         hullHeight = h;
         decks = hullHeight/4;
-        SizeCalc(hullMaxWeight, hullShape, hullHeight);
+        switch(hullShape){
+            case "Saucer":
+                SaucerHull();
+                break;
+            case "Brick":
+                PolygonalHull(hullShape, hullRatio);
+                break;
+            case "Diamond":
+                PolygonalHull(hullShape, hullRatio);
+                break;
+            case "Wedge":
+                PolygonalHull(hullShape, hullRatio);
+                break;
+            case null:
+            Debug.LogError("The hull shape disappeared, setting to Brick.");
+            hullShape = "Brick";
+            break;
+        }
+
     }
     //Base hull weight is the base hull only. Adding wings just adds more slots and opens more mounting points for thrusters.
-    private void SizeCalc(int weight, string shape, int height, int ratio = 0){
+    private double FlatCalc(double weight, double height){
         double vol = weight * SPACESHIP_TONS_PER_CUBIC_METER;
         double flat = vol / height;
-        if (shape == "Circle"){
+        return flat;
+    }
+    private void SaucerHull(){
+        double flat = FlatCalc(hullMaxWeight, hullHeight);
+        double r = math.sqrt(flat/math.PI);
+            //figure out actual draw circle later
+    }
+    private void PolygonalHull(string shape, double ratio){
+        if (ratio!=0){
+            if (shape == "Brick"){
 
-        } else if (shape == "Rectangle"){
-            if (ratio!=0){
             }
-            else{
-                Console.WriteLine("You need to add a length-width ratio.");//replace with proper error window later
+            else if (shape == "Wedge"){
+            }
+            else if (shape == "Diamond"){
+
             }
         } else {
-            Console.WriteLine("Something got into the SizeCalc function, go debug.");
+                Debug.LogError("You need to add a length-width ratio.");//replace with proper error window later
         }
+    }
+    private void DrawDecks(){
+        //Figure out how to texture later
     }
 }
 

@@ -9,6 +9,5 @@ public class SaveSystemManager : MonoBehaviour{
         }
         Instance = this;
         
-        
     } 
 }

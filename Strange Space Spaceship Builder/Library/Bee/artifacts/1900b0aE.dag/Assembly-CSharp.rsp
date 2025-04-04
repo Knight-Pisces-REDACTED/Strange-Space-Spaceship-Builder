@@ -429,6 +429,7 @@
 "Assets/Scripts/Globals.cs"
 "Assets/Scripts/GunSizes.cs"
 "Assets/Scripts/MainMenuScript.cs"
+"Assets/Scripts/SaveSystem/FileDataHandler.cs"
 "Assets/Scripts/SaveSystem/ISaveSystem.cs"
 "Assets/Scripts/SaveSystem/SaveSystemManager.cs"
 "Assets/Scripts/Ship.cs"

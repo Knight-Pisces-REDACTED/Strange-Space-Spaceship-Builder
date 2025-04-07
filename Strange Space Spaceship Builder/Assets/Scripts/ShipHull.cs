@@ -54,9 +54,14 @@ public class ShipHull
     private void PolygonalHull(string shape, double ratio){
         if (ratio!=0){
             if (shape == "Brick"){
-
+                double flat = FlatCalc(hullMaxWeight, hullHeight);
+                hullLength = math.sqrt((flat*flat)*ratio);
+                hullWidth = hullLength/ratio;
             }
             else if (shape == "Wedge"){
+                double flat = FlatCalc(hullMaxWeight, hullHeight) * 2;
+                hullLength = math.sqrt((flat*flat)*ratio);
+                hullWidth = hullLength/ratio;
             }
             else if (shape == "Diamond"){
 

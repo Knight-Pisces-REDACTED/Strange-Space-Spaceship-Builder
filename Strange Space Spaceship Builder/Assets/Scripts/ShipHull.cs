@@ -16,6 +16,7 @@ public class ShipHull
     public double hullRatio;
     public string hullShape;
     public double decks;
+    public Vector3[] hullVerticies;
     public ShipHull(string hullShape, double weight = 25000, double h = 28){
         hullMaxWeight = weight;
         hullHeight = h;
@@ -49,7 +50,14 @@ public class ShipHull
     private void SaucerHull(){
         double flat = FlatCalc(hullMaxWeight, hullHeight);
         double r = math.sqrt(flat/math.PI);
-            //figure out actual draw circle later
+        LineRenderer flatRenderer = new LineRenderer();
+        int steps = (int)(r * 2);
+        flatRenderer.positionCount = steps;
+        for (int cs = 0; cs < steps; cs++){
+            double cP = (double)cs/steps;
+            double currRadian = cP * 2 * MathF.PI;
+        }
+        //Use diameter for steps
     }
     private void PolygonalHull(string shape, double ratio){
         if (ratio!=0){
@@ -64,10 +72,12 @@ public class ShipHull
                 hullWidth = hullLength/ratio;
             }
             else if (shape == "Diamond"){
-
+                double flat = FlatCalc(hullMaxWeight, hullHeight) * 2;
+                hullLength = math.sqrt((flat*flat)*ratio);
+                hullWidth = hullLength/ratio;
             }
         } else {
-                Debug.LogError("You need to add a length-width ratio.");//replace with proper error window later
+            Debug.LogError("You need to add a length-width ratio.");//replace with proper error window later
         }
     }
     private void DrawDecks(){

@@ -50,13 +50,8 @@ public class ShipHull
     private void SaucerHull(){
         double flat = FlatCalc(hullMaxWeight, hullHeight);
         double r = math.sqrt(flat/math.PI);
-        LineRenderer flatRenderer = new LineRenderer();
-        int steps = (int)(r * 2);
-        flatRenderer.positionCount = steps;
-        for (int cs = 0; cs < steps; cs++){
-            double cP = (double)cs/steps;
-            double currRadian = cP * 2 * MathF.PI;
-        }
+        double midship = hullHeight/2;
+        
         //Use diameter for steps
     }
     private void PolygonalHull(string shape, double ratio){

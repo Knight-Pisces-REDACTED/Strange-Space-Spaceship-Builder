@@ -21,5 +21,19 @@ public class PlaneGenerator : MonoBehaviour
     void Update()
     {
         planeResolution = Mathf.Clamp(planeResolution, 1, 50);
+        GeneratePlane(planeSize, planeResolution);
+        
+    }
+    void GeneratePlane(Vector2 size, int resolution){
+
+    }
+    void AssignMesh(){
+
+    }
+    void LeftToWriteSine(){
+
+    }
+    void RippleSine(){
+
     }
 }

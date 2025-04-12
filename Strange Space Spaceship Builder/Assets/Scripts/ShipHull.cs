@@ -1,12 +1,15 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using NUnit.Framework.Internal;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Scripting.APIUpdating;
 using static Constants.BuilderConstants;
+using static ShipFrames;
 
-public class ShipHull
+public class ShipHull : MonoBehaviour
 {
     public double hullWeight;
     public double hullMaxWeight;
@@ -16,7 +19,9 @@ public class ShipHull
     public double hullRatio;
     public string hullShape;
     public double decks;
-    public Vector3[] hullVerticies;
+    string currentFrame;
+    private List<GameObject> existingMounts;
+    public GameObject prefab;
     public ShipHull(string hullShape, double weight = 25000, double h = 28){
         hullMaxWeight = weight;
         hullHeight = h;
@@ -75,8 +80,15 @@ public class ShipHull
             Debug.LogError("You need to add a length-width ratio.");//replace with proper error window later
         }
     }
-    private void DrawDecks(){
-        //Figure out how to texture later
+    public void LoadFrame(string frameName){
+        Frame myFrame = ShipFrames.GetFrame(frameName);
+        for (int i = 0; i < existingMounts.Count; i++){
+            Destroy(existingMounts[i]);
+        }
+        existingMounts.Clear();
+        for(int i = 0; i < myFrame.mounts.Length; i++){
+            Instantiate(prefab, myFrame.mounts[i], quaternion.identity);
+        }
     }
 }
 

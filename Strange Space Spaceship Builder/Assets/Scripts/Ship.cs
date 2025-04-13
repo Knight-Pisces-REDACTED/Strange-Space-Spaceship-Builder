@@ -5,10 +5,10 @@ using UnityEngine;
 public class Ship{
     public string shipClassName;
     public double HP;
-    public Faction faction;
+    public string faction;
     public ShipHull hull;
     public ShipWings myWings;
-    public Ship(String name, Faction myFact){
+    public Ship(String name, string myFact){
         
     }
 }

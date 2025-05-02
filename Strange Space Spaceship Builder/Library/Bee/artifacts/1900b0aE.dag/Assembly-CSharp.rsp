@@ -430,6 +430,7 @@
 "Assets/Scripts/Globals.cs"
 "Assets/Scripts/Menus/BuildMenuScript.cs"
 "Assets/Scripts/Menus/FactionIcon.cs"
+"Assets/Scripts/Menus/FactionSelectorScript.cs"
 "Assets/Scripts/Menus/MainMenuScript.cs"
 "Assets/Scripts/MountingPoints.cs"
 "Assets/Scripts/PlaneGenerator.cs"

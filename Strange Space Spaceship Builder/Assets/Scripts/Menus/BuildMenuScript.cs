@@ -5,11 +5,18 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class BuildMenuScript : MonoBehaviour
 {
-    public TMP_Dropdown fact;
+    [SerializeField] private TMP_Dropdown fact;
     public Sprite[] sprites = new Sprite[3];
+    public Sprite facSprite;
     public void Awake()
     {
-        //fact = GameObject.Find("FactionSelector").GetComponent<Dropdown>();
+    }
+    public void Start()
+    {
+        facSprite = sprites[0];
+    }
+    public void Update()
+    {
     }
     public void NewShip(){
         Globals.currentShip = new Ship("New Ship", Globals.currentFaction);
@@ -25,25 +32,21 @@ public class BuildMenuScript : MonoBehaviour
         int val = dropdown.value;
         if(val == 0){
             Globals.currentFaction = null;
-            Debug.Log("Null");
+            facSprite = TransformImage(0);
         } else if (val == 1){
             Globals.currentFaction = "Daicosreyn";
-            Debug.Log("Daicosreyn");
+            facSprite = TransformImage(1);
         }
         else if (val == 2){
             Globals.currentFaction = "Rehman Empire";
+            facSprite = TransformImage(2);
         }
-        Debug.Log(val);
     }
-    public Sprite TransformImage(){
-        if (Globals.currentFaction == "Daicosreyn"){
-            return sprites[1];
-        }
-        else if (Globals.currentFaction == "Rehman Empire"){
-            return sprites[2];
-        }
-        else{
-            return sprites[0];
-        }
+    public Sprite TransformImage(int v){
+        Debug.Log("Updating image");
+        return sprites[v];
+    }
+    public Sprite GetFacSprite(){
+        return facSprite;
     }
 }

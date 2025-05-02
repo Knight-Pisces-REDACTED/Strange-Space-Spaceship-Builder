@@ -7,7 +7,6 @@ public class Ship{
     public double HP;
     public string faction;
     public ShipHull hull;
-    public ShipWings myWings;
     public Ship(String name, string myFact){
         
     }

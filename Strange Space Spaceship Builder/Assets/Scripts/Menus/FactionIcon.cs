@@ -1,19 +1,24 @@
+using System;
 using UnityEngine;
 
 public class FactionIcon : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    GameObject mh;
+    public GameObject mh;
+    [SerializeField] Sprite startSprite;
     void Start()
     {
-        mh = GameObject.Find("BuildMenuHandler");
+        GetComponent<SpriteRenderer>().sprite = startSprite;
     }
 
     // Update is called once per frame
     void Update()
     {
-        print(Globals.currentFaction);
-        GetComponent<SpriteRenderer>().sprite = mh.GetComponent<BuildMenuScript>().TransformImage();
-
+        if (mh.name == "BuildMenuHandler"){
+            GetComponent<SpriteRenderer>().sprite = mh.GetComponent<BuildMenuScript>().GetFacSprite();
+        } else if (mh.name == "BuildLogicer"){
+            GetComponent<SpriteRenderer>().sprite = mh.GetComponent<BuildLogic>().getFacSprite();
+        }
     }
+
 }

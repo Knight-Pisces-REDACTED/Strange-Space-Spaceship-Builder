@@ -6,6 +6,10 @@ using Mono.Cecil;
 public class FileDataHandler{
     private string directoryName = "";
     private string dataName = "";
+    public FileDataHandler(string dirPath, string fileName){
+        this.directoryName = dirPath;
+        this.dataName = fileName;
+    }
     public void saveShip(Ship tbs){
         string fullPath = Path.Combine(directoryName, dataName);
         try{
